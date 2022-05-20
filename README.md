@@ -32,7 +32,7 @@ IMPORTANT: How to configure the env variables
 =================================
 the .env variable found in the main folder directory contains environmental variables for the backend
 make sure to use your own cloudinary key and secret so that file uploads work
-.env variable found inside the motoapp folder corresponds to the server ip hosting the backend (localhost if you will run app on the same machine or pass the host IP if running on physical device)
+.env variable found inside the MotoApp folder corresponds to the server ip hosting the backend (localhost if you will run app on the same machine or pass the host IP if running on a physical device)
 In addition, the following should be present in the babel.config.js when the react native application is built:
 module.exports = {
   presets: ['module:metro-react-native-babel-preset'],
@@ -55,7 +55,7 @@ module.exports = {
 Installing Dependencies
 =======================
 The package.json for the backend and the react-native app are included
-In order to install the project dependencies, run npm install from the parent directory and in the react native app to install all required dependencies needed for the project.
+In order to install the project dependencies, run npm install from the parent directory and in the react native app directory (MotoApp) to install all required dependencies needed for the project.
 if running an ios application, make sure to run pod install inside the initialized project's ios folder. 
 ******************************
 
